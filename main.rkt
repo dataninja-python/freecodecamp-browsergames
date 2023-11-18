@@ -1,5 +1,8 @@
 #lang racket/base
 
+;; imports
+(require src/app/app.rkt)
+
 (module+ test
   (require rackunit))
 
