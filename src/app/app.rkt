@@ -1,3 +1,5 @@
+;; app file
+#lang racket
 (provide say-hi-app)
 
 
