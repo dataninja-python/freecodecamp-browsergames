@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@mojs/core": "^1.7.1",
+    "animate.css": "^4.1.1",
+    "animejs": "^3.2.1",
+    "scrollreveal": "^4.0.9",
+    "vivus": "^0.4.6"
+  }
+}

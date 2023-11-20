@@ -28,7 +28,9 @@
 
 ;; Code here
 
-
+(define (hourly-rate rate)
+    (* rate 40)
+)
 
 (module+ test
   ;; Any code in this `test` submodule runs when this file is run using DrRacket
@@ -42,7 +44,6 @@
   ;; this file is run using DrRacket or the `racket` executable.  The code here
   ;; does not run when this file is required by another module. Documentation:
   ;; http://docs.racket-lang.org/guide/Module_Syntax.html#%28part._main-and-test%29
-
   (require racket/cmdline)
   (define who (box "world"))
   (command-line
